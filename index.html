@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Garcia Rolo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Garcia Rolo</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-</head>
+  <style>
+    body {
+      background-image: url('rolo.png');
+      background-repeat: repeat;
+      font-family: 'Montserrat';
+    }
+  </style>
+  @@include('./components/header.html')
+  <body>
+    <main>
+      <h1 style="font-size: 5em; background-color: blueviolet">
+        Garcia Rolo - Malas de Homem
+      </h1>
 
-<style>
-  body {
-    background-image: url("rolo.png");
-    background-repeat: repeat;
-    font-family: 'Montserrat';
-  }
-</style>
-
-<body>
-  <main>
-    <h1 style="font-size: 5em; background-color: blueviolet;">Garcia Rolo - Malas de Homem</h1>
-
-    <body>
-    </body>
-  </main>
-</body>
-
+      <body></body>
+    </main>
+  </body>
+  @@include('./components/footer.html')
 </html>
